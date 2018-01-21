@@ -1,0 +1,36 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/.Xilinx/RiscV_CPU_G7/Datapath_tb_isim_beh.exe -prj C:/.Xilinx/RiscV_CPU_G7/Datapath_tb_beh.prj work.Datapath_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/.Xilinx/RiscV_CPU_G7/PC.v" into library work
+Analyzing Verilog file "C:/.Xilinx/RiscV_CPU_G7/Mux2x1_32b.v" into library work
+Analyzing Verilog file "C:/.Xilinx/RiscV_CPU_G7/ipcore_dir/ROM.v" into library work
+Analyzing Verilog file "C:/.Xilinx/RiscV_CPU_G7/Immediate_Gen.v" into library work
+Analyzing Verilog file "C:/.Xilinx/RiscV_CPU_G7/BranchSelect.v" into library work
+Analyzing Verilog file "C:/.Xilinx/RiscV_CPU_G7/ALU.v" into library work
+Analyzing Verilog file "C:/.Xilinx/RiscV_CPU_G7/DataPath.v" into library work
+Analyzing Verilog file "C:/.Xilinx/RiscV_CPU_G7/Datapath_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module ROM
+Compiling module Immediate_Gen
+Compiling module RegFile
+Compiling module ControlUnit
+Compiling module BranchSelect
+Compiling module ALU
+Compiling module Mux2x1_32b
+Compiling module PCCount
+Compiling module DataPath
+Compiling module Datapath_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 15 Verilog Units
+Built simulation executable C:/.Xilinx/RiscV_CPU_G7/Datapath_tb_isim_beh.exe
+Fuse Memory Usage: 33512 KB
+Fuse CPU Usage: 545 ms

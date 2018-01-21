@@ -1,0 +1,24 @@
+
+
+Net "SevenSegout[6]" LOC = "T17";
+Net "SevenSegout[5]" LOC = "T18";
+Net "SevenSegout[4]" LOC = "U17";
+Net "SevenSegout[3]" LOC = "U18";
+Net "SevenSegout[2]" LOC = "M14";
+Net "SevenSegout[1]" LOC = "N14";
+Net "SevenSegout[0]" LOC = "L14";
+
+Net "clk" LOC = "V10";
+Net "rst" LOC = "T10";
+
+Net "view[0]" LOC = "T5";
+Net "view[1]" LOC = "V8";
+Net "view[2]" LOC = "U8";
+Net "view[3]" LOC = "N8";
+Net "view[4]" LOC = "M8";
+
+
+Net "en[0]" LOC = "N16";
+Net "en[1]" LOC = "N15";
+Net "en[2]" LOC = "P18";
+Net "en[3]" LOC = "P17";

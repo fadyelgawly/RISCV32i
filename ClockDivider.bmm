@@ -1,0 +1,50 @@
+
+`timescale 1ns/1ns
+
+module clkDiv(clk, clkA, clkB, en, rst);
+parameter n= 50;
+parameter k= 1;
+parameter t = 2;
+
+input clk, rst, en;
+output reg clkA, clkB;
+
+reg [31:0] counter1, counter2;
+
+always @(posedge clk or posedge rst) begin
+    if(rst) begin
+        clkA = 1'b0;
+        clkB = 1'b0;
+        counter1 = 32'd0;
+        counter2 = 32'd0;
+    end else if(en) begin
+        if(counter1 == n/(2*k)) begin
+            clkA = ~clkA;
+            counter1 = 32'd0;
+        end
+        else counter1 = counter1 + 32'd1;
+        
+        if(counter2 == n/(2*t)) begin
+            clkB = ~clkB;
+            counter2 = 32'd0;
+        end
+        else counter2 = counter2 + 32'd1;
+        
+    end
+    else begin
+        clkA = clkA;
+        clkB = clkB;
+        counter1 = counter1;
+        counter2 = counter2;
+    end
+
+
+
+
+
+
+end
+
+
+
+endmodule

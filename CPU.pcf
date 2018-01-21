@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Dec 13 02:14:09 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "rst" LOCATE = SITE "T10" LEVEL 1;
+COMP "SevenSegout<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "SevenSegout<1>" LOCATE = SITE "N14" LEVEL 1;
+COMP "SevenSegout<2>" LOCATE = SITE "M14" LEVEL 1;
+COMP "SevenSegout<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "SevenSegout<4>" LOCATE = SITE "U17" LEVEL 1;
+COMP "SevenSegout<5>" LOCATE = SITE "T18" LEVEL 1;
+COMP "SevenSegout<6>" LOCATE = SITE "T17" LEVEL 1;
+COMP "en<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "en<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "en<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "en<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "view<0>" LOCATE = SITE "T5" LEVEL 1;
+COMP "view<1>" LOCATE = SITE "V8" LEVEL 1;
+COMP "view<2>" LOCATE = SITE "U8" LEVEL 1;
+COMP "view<3>" LOCATE = SITE "N8" LEVEL 1;
+COMP "view<4>" LOCATE = SITE "M8" LEVEL 1;
+SCHEMATIC END;
+
